@@ -4,18 +4,25 @@
     box-sizing: border-box;
 }
 
-header h1 {
-    color: lightcoral;
+header li {
+    display: inline;
 }
 
-#sports h2 {
-    color: green;
+.container {
+    width: 1366px;
+    margin: 0 auto;
 }
 
-#economy h2 {
-    color: gold;
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.creation-date {
-    color: #ccc;
+.articles img {
+    height: 100px;
+}
+
+.articles article {
+    width: 30%;
 }
