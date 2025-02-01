@@ -26,3 +26,23 @@ header li {
 .articles article {
     width: 30%;
 }
+
+#entertainment h2 {
+    color: chocolate;
+}
+
+#entertainment .articles h3 {
+    color: blueviolet;
+}
+
+#tecnology h2 {
+    color: palevioletred;
+}
+
+#tecnology .articles h3 {
+    color: olive;
+}
+
+#tecnology .articles p {
+    color: slateblue;
+}
